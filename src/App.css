@@ -1,0 +1,55 @@
+.white {
+  background-color: white;
+}
+
+.grey {
+  background-color: #efefef;
+}
+
+table {
+  width : 100%;
+  border : none;
+  border-collapse: collapse;
+}
+
+@media all and (orientation:portrait) {
+  .stop {
+    background-color: #007ac9;
+    font-weight: bold;
+    font-size: 4.0vw;
+  }
+  
+  tbody {
+    font-size: 3.5vw;
+  }
+  thead {
+    font-size: 3.5vw;
+    background-color: #0c96f0;
+    text-align: left;
+  }
+  .footer {
+    text-align: left;
+    font-size: 1.8vw;
+  }
+}
+
+@media all and (orientation:landscape) {
+  .stop {
+    background-color: #007ac9;
+    font-weight: bold;
+    font-size: 3.3vh;
+  }
+  tbody {
+    font-size: 2.8vh;
+  }
+  thead {
+    font-size: 2.8vh;
+    background-color: #0c96f0;
+    text-align: left;
+  }
+  .footer {
+    text-align: left;
+    font-size: 1.4vh;
+  }
+}
+
